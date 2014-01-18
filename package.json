@@ -1,0 +1,13 @@
+{
+  "name": "phonegap-coffee-bootstrap",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  }
+}
