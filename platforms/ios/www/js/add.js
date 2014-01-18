@@ -19,7 +19,7 @@
         if (err) {
           return $("#save-message").html('<div class="alert alert-danger">Book ' + $("#title").val() + " did not save</div>");
         } else {
-          htmlMessage = '<div class="alert alert-success">Book ' + $("#title").val() + "  saved successfully</div>";
+          htmlMessage = '<p>&nbsp <br/></p><div class="alert alert-success">Book ' + $("#title").val() + "  saved successfully</div>";
           return document.getElementById('save-message').innerHTML = htmlMessage;
         }
       });

@@ -5,6 +5,8 @@ $( () ->
   books = new Apigee.Collection
     "client":client, 
     "type":"books"
+    "qs":
+      "ql":"order by created DESC"
     
   books.fetch (err, data) ->
     $('#books-list').empty()

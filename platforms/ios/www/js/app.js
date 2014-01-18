@@ -9,7 +9,10 @@
     });
     books = new Apigee.Collection({
       "client": client,
-      "type": "books"
+      "type": "books",
+      "qs": {
+        "ql": "order by created DESC"
+      }
     });
     return books.fetch(function(err, data) {
       $('#books-list').empty();
